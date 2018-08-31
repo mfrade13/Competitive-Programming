@@ -44,4 +44,14 @@ class FastReader{
             }
             return str;
         }
+
+	int read() {
+	    int n=0;
+	    try {
+	      n= br.read();
+	    }catch (IOException e) {
+	       e.printStackTrace();
+	     }
+	    return n;
+	}
     }
