@@ -3,6 +3,9 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
+/*
+@autor:https://www.geeksforgeeks.org/fast-io-in-java-in-competitive-programming/
+*/
 class FastReader{
         BufferedReader br;
         StringTokenizer st;
