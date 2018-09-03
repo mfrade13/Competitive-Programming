@@ -2,7 +2,7 @@ import java.math.BigInteger;
 import java.util.Scanner;
 
 
-public class perl {
+public class pells {
 
 	static BigInteger dp[] = new BigInteger[50001];
 	static BigInteger two = BigInteger.valueOf(2);
@@ -27,12 +27,12 @@ public class perl {
 			StringBuilder sb = new StringBuilder();
 			for(int i=0;i<5;i++){
 				if(dp[d].mod(dd[i]).compareTo(z)==0 ){
-					sb.append("" + d + " is divisible by " + dd[i]);
+					sb.append("Pell's number "+d+" is divisible by " + dd[i]);
 					sb.append("\n");
 				}
 			}
 			if(sb.length()>0)
-				System.out.println(sb);
+				System.out.print(sb);
 			else{
 				System.out.println("-1");
 			}
