@@ -15,9 +15,9 @@ public static void main(String args[]){
 
   int res =  c*(a+ (a-b))/(a+b);
   if (res<0)
-    System.out,println(0);
+    System.out.println(0);
   else{
-    System.out,println(res);
+    System.out.println(res);
  
   }
 
